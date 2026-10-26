@@ -53,7 +53,7 @@ hist(Wq(warm:end)*60, 0:1:120);      % 转换为分钟
 grid on;
 xlabel('Waiting Time (min)'); ylabel('Count');
 title('M/M/1 Call Center: Waiting Time Distribution (lambda=10/h, mu=12/h)');
-print(h, 'pt_T01.png', '-dpng', '-r150');
+print(h, 'figures/mm1_waitdist.png', '-dpng', '-r150');
 
 fprintf('\n结论: 仿真与论文理论值误差在百分之几内, 呼叫中心参数合理。\n');
 fprintf('管理启示: rho=0.83 时平均等待 30 分钟, 接近临界负载, 增员可大幅降等待。\n');
