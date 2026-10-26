@@ -1,0 +1,3 @@
+# 运行产物不入库(figures/ 下的效果图除外)
+demos/*.png
+*.html
