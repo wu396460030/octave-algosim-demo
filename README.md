@@ -32,7 +32,7 @@ octave-cli demos/demo_pid_tuning.m --no-gui
 
 | Demo | 方法族 Family | 亮点 Highlight | 效果图 Figure |
 |---|---|---|---|
-| `demo_pid_tuning.m` | 控制控制 PID Control | P/PI/PID 三控制器闭环对比，指标表输出 | ![PID](demos/figures/pid_tuning.png) |
+| `demo_pid_tuning.m` | 控制 PID Control | P/PI/PID 三控制器闭环对比，指标表输出 | ![PID](demos/figures/pid_tuning.png) |
 | `demo_mm1_callcenter.m` | 排队论+蒙特卡洛 Queueing + MC | 呼叫中心案例复现论文理论值，**误差 0.8%** | ![M/M/1](demos/figures/mm1_waitdist.png) |
 | `demo_nsga2_zdt1.m` + `nsga2.m` | 多目标优化 Multi-objective | NSGA-II 前沿铺满 [0,1]，贴合理论曲线偏差 0.0000 | ![NSGA-II](demos/figures/nsga2_front.png) |
 
