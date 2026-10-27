@@ -12,8 +12,8 @@
 20 篇论文反向测试（20/20 通过）与 13 项回归测试中，精选 3 个自包含示例供你直接运行体验。
 
 This repo is the **open demo of the "MATLAB/Octave Simulation & Algorithm Assistant" skill**:
-3 self-contained examples distilled from the full version (24 method families, 20/20 paper-based
-reverse tests, 13/13 regression tests).
+3 self-contained examples distilled from the full version (26 method families, 24/24 paper-based
+reverse tests, 16/16 regression tests).
 
 - ✅ **Octave 11.x 与 MATLAB R2016b+ 双兼容** / Works on both Octave and MATLAB
 - ✅ 每个脚本单文件自包含，复制即跑 / Each script is a single self-contained file
@@ -40,8 +40,8 @@ octave-cli demos/demo_pid_tuning.m --no-gui
 
 ## 完整版有什么 / What's in the Full Version
 
-开源演示只是冰山一角。完整技能覆盖 **24 个方法族**，关键词直达正确方法：
-The open demos are just the tip. The full skill covers **24 method families**, routed by keyword:
+开源演示只是冰山一角。完整技能覆盖 **26 个方法族**（含似然面仿真与多模型叠加混合仿真），关键词直达正确方法：
+The open demos are just the tip. The full skill covers **26 method families** (incl. likelihood-surface simulation and hybrid multi-model co-simulation), routed by keyword:
 
 - **智能优化 Intelligent optimization**: GA / PSO / 模拟退火 SA / 蚁群 ACO / NSGA-II / 网格搜索 / 穷举
 - **图论与组合 Graph & combinatorial**: 最短路 Dijkstra / 网络流 Max-flow / 二分图匹配 Hungarian / DP / 回溯 / 分支定界
