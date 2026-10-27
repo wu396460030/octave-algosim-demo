@@ -93,9 +93,51 @@ The full skill is published on the WorkBuddy skill marketplace (26 method famili
 
 ## 环境要求 / Requirements
 
-- GNU Octave 11.x（开源）或 MATLAB R2016b+
-- 控制类示例需 `control` 包 / 控制示例 need the `control` package: `pkg install -forge control`
-- 其余示例仅依赖核心函数 / Other demos use core functions only
+> **不装环境也能评估质量**：README 里的效果图与验证数字全部是实跑输出，
+> 先看图、先看数字，判断水平够不够，再决定要不要装。
+> You can judge the quality without installing anything: every figure and number
+> in this README is real program output.
+
+### 免费方案（推荐）/ Free option (recommended)
+
+**GNU Octave** —— 开源免费（GPLv3），与 MATLAB 语法高度兼容，本仓库全部示例可直接运行。
+GNU Octave is open source (GPLv3) and largely MATLAB-syntax compatible.
+
+- 官方下载页 Official: <https://www.octave.org/download.html>
+- Windows 安装包直链（官方源）: <https://ftp.gnu.org/gnu/octave/windows/>
+- 国内镜像（下载更快）China mirrors:
+  - 清华 TUNA: <https://mirrors.tuna.tsinghua.edu.cn/gnu/octave/windows/>
+  - 中科大 USTC: <https://mirrors.ustc.edu.cn/gnu/octave/>
+- 包管理器 Package managers:
+  ```bash
+  winget install GNU.Octave        # Windows
+  brew install octave              # macOS
+  sudo apt install octave          # Debian / Ubuntu
+  ```
+
+### 商业方案 / Commercial option
+
+**MATLAB** 为 MathWorks 商业软件，**请通过官方渠道获取正版授权**（无开源版本、无第三方镜像）。
+MATLAB is commercial software from MathWorks — obtain it **only through official channels**
+(there is no open-source build and no legitimate third-party mirror).
+
+- 官方（中文站）: <https://ww2.mathworks.cn/products/matlab.html>
+- 有正版授权的用户：R2016b+ 可直接运行本仓库示例，无需改动。
+
+### 其他开源替代（语法相近，非本仓库官方支持）/ Other open-source alternatives
+
+- **Scilab**（开源，含 Xcos 图形化建模）: <https://www.scilab.org/download>
+- **Python 科学计算栈**（NumPy / SciPy / Matplotlib）: 生态更强，但语法不兼容，需自行改写脚本。
+
+### 依赖说明 / Dependencies
+
+- 只有 `demo_pid_tuning.m` 需要 `control` 包: `pkg install -forge control`
+- 其余三个示例（含 `demo_likelihood_shapes.m`）**零依赖，仅用核心函数**
+- 验证安装 / Verify:
+  ```bash
+  octave-cli --version
+  octave-cli demos/demo_likelihood_shapes.m --no-gui -q
+  ```
 
 ## License
 
