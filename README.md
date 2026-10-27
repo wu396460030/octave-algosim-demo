@@ -122,7 +122,25 @@ MATLAB is commercial software from MathWorks — obtain it **only through offici
 (there is no open-source build and no legitimate third-party mirror).
 
 - 官方（中文站）: <https://ww2.mathworks.cn/products/matlab.html>
+- 定价与授权 Pricing: <https://www.mathworks.com/pricing-licensing.html>
+  （地区与用途不同差价很大，**以官网当前报价为准**；且 2026-01-01 起
+  Student / Home 的永久授权已停售，改为年度订阅，购买前务必先查官网最新政策）
 - 有正版授权的用户：R2016b+ 可直接运行本仓库示例，无需改动。
+
+#### 想省钱？先看这三条 / Cheaper paths to MATLAB
+
+1. **先查学校有没有校园总许可** —— 很多高校已购买全校授权，在校师生可免费或
+   极低成本使用（找学校 IT 中心 / 图书馆 / 院系实验室管理员问一句，成本最低）。
+   Many universities hold campus-wide licenses — check with your IT department first.
+2. **学生版 Student** —— 需在校学生身份证明，价格远低于商业授权。
+3. **个人版 Home** —— 面向个人非商业用途，比商业版便宜很多，但**不得用于
+   商业/盈利/机构用途**（这点务必注意，用错场景会有合规风险）。
+4. **其实不必买** —— 本仓库全部示例在**免费的 GNU Octave** 上验证通过。
+   如果只是想跑这些代码，Octave 的成本是 0。
+   For the code in this repo, free Octave works — you may not need MATLAB at all.
+
+> ⚠️ 合规提醒：MATLAB 无开源版本、无合法第三方镜像。任何"破解版 / 激活工具 /
+> 网盘安装包"均为盗版，请勿使用。本仓库不提供也不推荐任何非官方获取方式。
 
 ### 其他开源替代（语法相近，非本仓库官方支持）/ Other open-source alternatives
 
